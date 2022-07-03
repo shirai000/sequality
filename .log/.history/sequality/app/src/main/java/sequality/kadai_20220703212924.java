@@ -1,8 +1,14 @@
 package sequality;
 
-public class Calculate {
-  public int sum(int x, int y) {
-    return x + y;
+public class kadai {
+  public String getGreeting() {
+    return "Hello World!";
+  }
+
+  public string sum(int x, int y) {
+    string s = "Sum of" + x + "and" + y + "is" + (x + y) + ". Average is" + (x + y) / 2 + ".";
+
+    return s;
   }
 
   public int sumA(int x, int y) {
@@ -21,5 +27,9 @@ public class Calculate {
       }
     }
     return sum;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(new App().getGreeting());
   }
 }

@@ -1,6 +1,10 @@
 package sequality;
 
-public class Calculate {
+public class kadai {
+  public String getGreeting() {
+    return "Hello World!";
+  }
+
   public int sum(int x, int y) {
     return x + y;
   }
@@ -21,5 +25,9 @@ public class Calculate {
       }
     }
     return sum;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(new App().getGreeting());
   }
 }
