@@ -32,7 +32,7 @@ public class App {
 
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
-    System.out.println("Sum of 2 and 3 is" + new App().sum(2, 3) + " Average is " + double(new App().sum(2, 3)) / 2 + ".");
+    System.out.println("Sum of 2 and 3 is" + new App().sum(2, 3) + " Average is " + new App().sum(2, 3) / 2 + ".");
     System.out.println(new App().sumA(1, 10));
   }
 }
