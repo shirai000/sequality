@@ -25,16 +25,6 @@ public class AppTest {
 
   public void testsumA() {
     App classUnderTest = new App();
-    assertEquals(55, classUnderTest.sumA(1, 10));
-  }
-
-  public void testsumO() {
-    App classUnderTest = new App();
-    assertEquals(25, classUnderTest.sumO(1, 10));
-  }
-
-  public void testsumE() {
-    App classUnderTest = new App();
-    assertEquals(30, classUnderTest.sumE(1, 10));
+    assertEquals(55, classUnderTest.sum(1, 10));
   }
 }

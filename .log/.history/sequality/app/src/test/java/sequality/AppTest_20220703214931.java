@@ -18,23 +18,8 @@ public class AppTest {
     assertEquals("Hello World!", classUnderTest.getGreeting());
   }
 
-  public void testsum() {
+  public void appHasASum() {
     App classUnderTest = new App();
-    assertEquals(5, classUnderTest.sum(2, 3));
-  }
-
-  public void testsumA() {
-    App classUnderTest = new App();
-    assertEquals(55, classUnderTest.sumA(1, 10));
-  }
-
-  public void testsumO() {
-    App classUnderTest = new App();
-    assertEquals(25, classUnderTest.sumO(1, 10));
-  }
-
-  public void testsumE() {
-    App classUnderTest = new App();
-    assertEquals(30, classUnderTest.sumE(1, 10));
+    assertEquals("Hello World!", classUnderTest.getGreeting());
   }
 }

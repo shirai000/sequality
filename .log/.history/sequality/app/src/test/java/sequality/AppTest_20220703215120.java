@@ -30,11 +30,6 @@ public class AppTest {
 
   public void testsumO() {
     App classUnderTest = new App();
-    assertEquals(25, classUnderTest.sumO(1, 10));
-  }
-
-  public void testsumE() {
-    App classUnderTest = new App();
-    assertEquals(30, classUnderTest.sumE(1, 10));
+    assertEquals(5, classUnderTest.sumO(2, 3));
   }
 }
